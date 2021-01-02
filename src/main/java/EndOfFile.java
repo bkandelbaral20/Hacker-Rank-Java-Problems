@@ -8,16 +8,14 @@ public class EndOfFile {
     public static void main(String[] args) {
 
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner scan = new Scanner (System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("please enter something");
 
-            int count = 1;
-            while (scan.hasNext()) {
-                String userInput = scan.nextLine();
-                System.out.println(count + " " + userInput);
-                count++;
-            }
-
-
+        int count = 1;
+        while (scan.hasNext()) {
+            String userInput = scan.nextLine();
+            System.out.println(count + " " + userInput);
+            count++;
         }
+    }
 }
